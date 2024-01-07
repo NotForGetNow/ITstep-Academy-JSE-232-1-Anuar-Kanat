@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #151A25;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    padding: 40px;
+    margin-left: 140px;
+    margin-right: 160px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.Des{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Meet{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 24px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Tick{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #D6377F;
+    padding: 10px 20px;
+}
+
+.Tick span{
+     font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.Block{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Des1{
+    display: flex;
+    justify-content: center;
+    font-family: Nunito Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.55px;
+    background: linear-gradient(135deg, #5EFCE8 0%, #736EFE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Lorem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Lorem span{
+    width: 400px;
+    color: #A6A6A6;
+    font-family: Nunito Sans;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+}
+
+.Block3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Date{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Ban{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

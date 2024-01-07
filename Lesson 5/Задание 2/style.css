@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    width: 300px;
+    height: 210px;
+    border: 5px solid gray;
+    margin: 5px;
+}
+header{
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+.block{
+    margin: 20px 5px;
+    background-color: aquamarine;
+}

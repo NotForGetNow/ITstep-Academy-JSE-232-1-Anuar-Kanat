@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #ccc; /* Добавляем контур вокруг таблицы */
+}
+
+td, th {
+    border: 2px solid #ccc; /* Добавляем контур вокруг ячеек */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    vertical-align: middle; /* Выравниваем текст по вертикали посередине ячейки */
+}
+
+td:first-child, th:first-child {
+    vertical-align: top; /* Выравниваем текст по вертикали сверху ячейки для первой колонки */
+}
+
+td[colspan="2"] {
+    vertical-align: middle; /* Выравниваем текст "Ученик" по вертикали посередине ячейки */
+}

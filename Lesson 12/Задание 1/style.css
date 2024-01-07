@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 3px dashed #ddd;
+}
+
+th {
+    background-color: gold;
+    border: 2px solid #ddd;
+    padding: 20px;
+}
+
+th::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    border: 2px solid #ddd;
+}
+
+td {
+    border: 1px dashed #ddd; 
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+tfoot td:first-child {
+    text-align: right;
+    border-top: 2px solid ;
+}
+
+tfoot td:last-child {
+    border-top: 2px solid ;
+}

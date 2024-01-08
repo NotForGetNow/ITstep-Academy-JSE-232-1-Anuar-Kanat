@@ -1,0 +1,301 @@
+@import url(https://fonts.googleapis.com/css?family=Odibee+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Prompt:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body{
+    background-color: #F5F7FF;
+}
+
+header{
+    display: flex;
+    align-items: center;
+
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    color: #272626;
+    font-family: Odibee Sans;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.45px;
+    margin: 56px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}
+
+ul li{
+    margin-left: 15px;
+}
+
+.Log{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    width: 117px;
+    height: 19px;
+    flex-shrink: 0;
+}
+
+.Login{
+    color: #4238AF;
+    font-family: Open Sans;
+    font-style: normal;
+    letter-spacing: 0.32px;
+}
+
+.Sign{
+    color: #272323;
+    font-family: Open Sans;
+    font-style: normal;
+    letter-spacing: 0.32px;
+}
+
+#girl{
+    position: absolute;
+    
+    z-index: 3;
+    width: 479px;
+    height: 495px;
+    top: 152px;
+    left: 706px;
+}
+
+#Round_Orange1{
+    position: absolute;
+    width: 299px;
+    height: 299px;
+    top: 187px;
+    left: 816px;
+    z-index: 2;
+}
+
+#Round_Purple1{
+    position: absolute;
+    width: 194px;
+    height: 194px;
+    top: 218px;
+    left: 1010px;
+    z-index: 1;
+}
+
+#Round_White1{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 218px;
+    left: 826px;
+    z-index: 2;
+}
+
+#Round_White2{
+    position: absolute;
+    width: 66px;
+    Height: 66px;
+    Top: 320px;
+    Left: 808px;
+    z-index: 2;
+}
+
+#Round_White3{
+    position: absolute;
+    width: 25px;
+    Height: 25px;
+    Top: 206px;
+    Left: 1095px;
+    z-index: 2;
+}
+
+#Round_White3{
+    position: absolute;
+    width: 25px;
+    Height: 25px;
+    Top: 206px;
+    Left: 1095px;
+    z-index: 2;
+}
+
+#Round_White4{
+    position: absolute;
+    width: 65.68px;
+    Height: 65.68px;
+    Top: 218px;
+    Left: 1141px;
+    motion-rotation: 15°;
+    z-index: 2;
+}
+
+#Round_White5{
+    position: absolute;
+    width: 17px;
+    Height: 17px;
+    Top: 303px;
+    Left: 1141px;
+    z-index: 2;
+}
+
+#Round_White6{
+    position: absolute;
+    width: 25px;
+    Height: 25px;
+    Top: 332px;
+    Left: 1185px;
+    z-index: 2;
+}
+
+#Round_Purple2{
+    position: absolute;
+    width: 25px;
+    Height: 25px;
+    Top: 237px;
+    Left: 926px;
+    z-index: 2;
+}
+
+#Round_Purple3{
+    position: absolute;
+    width: 9px;
+    Height: 9px;
+    Top: 249px;
+    Left: 1265px;
+    z-index: 2;
+}
+
+#Round_Purple4{
+    position: absolute;
+    width: 22px;
+    Height: 22px;
+    Top: 431px;
+    Left: 763px;
+    z-index: 2;
+}
+
+#Round_Purple5{
+    position: absolute;
+    width: 42px;
+    Height: 42px;
+    Top: 446px;
+    Left: 1225px;
+    z-index: 2;
+}
+
+#Round_Orange2{
+    position: absolute;
+    width: 26px;
+    Height: 26px;
+    Top: 139px;
+    Left: 929px;
+    z-index: 2;
+}
+
+#Round_Orange3{
+    position: absolute;
+    width: 16px;
+    Height: 16px;
+    Top: 165px;
+    Left: 1224px;
+    z-index: 2;
+}
+
+#Round_Orange4{
+    position: absolute;
+    width: 17px;
+    Height: 17px;
+    Top: 262px;
+    Left: 1112px;
+    z-index: 2;
+}
+
+#Round_Orange5{
+    position: absolute;
+    width: 34px;
+    Height: 34px;
+    Top: 303px;
+    Left: 746px;
+    z-index: 2;
+}
+
+#Round_Orange6{
+    position: absolute;
+    width: 22px;
+    Height: 22px;
+    Top: 395px;
+    Left: 852px;
+    z-index: 2;
+}
+
+#Square_Orange1{
+    position: absolute;
+    width: 64.7px;
+    Height: 64.7px;
+    Top: 124px;
+    Left: 1069.43px;
+    border: 4px;
+    z-index: 2;
+}
+
+#Square_Orange2{
+    position: absolute;
+    width: 17.46px;
+    Height: 17.46px;
+    Top: 341px;
+    Left: 1236.53px;
+    border: 3px;
+    z-index: 2;
+}
+
+#Square_Purple1{
+    position: absolute;
+    width: 28.99px;
+    Height: 28.99px;
+    Top: 202px;
+    Left: 819.13px;
+    border: 3px;
+    z-index: 2;
+}
+
+.box2{
+    padding: 193px;
+    color: #353434;
+    font-family: Prompt;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 3.15px;
+}
+
+.freelancer{
+    color: #FF5C00;
+    font-family: Prompt;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 3.15px;
+}
+
+.box3{
+    color: #A8A8A8;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}

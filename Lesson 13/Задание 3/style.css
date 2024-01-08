@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.item {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.per-month{
+    color: gray;
+}
+
+.gray-text, .black-text {
+    margin: 5px 0;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.black-text {
+    color: black;
+}
+
+div span{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card1 .line, .button1{
+    background-color: rgb(143, 29, 29);
+}
+
+.card2 .line, .button2{
+    background-color: rgb(155, 155, 26);
+}
+
+.card3 .line, .button3{
+    background-color: rgb(26, 26, 170);
+}
+
+.card4 .line, .button4{
+    background-color: rgb(43, 176, 43);
+}

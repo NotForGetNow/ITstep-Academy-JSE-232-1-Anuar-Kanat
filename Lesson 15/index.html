@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Foodies</title>
+</head>
+
+<body>
+    <div class="back">
+        <div class="side__bar">
+            <div class="logo">
+                <div class="logo__and__text">
+                    <div class="back__img">
+                        <img src="img/dinner 1.svg" alt="">
+                    </div>
+                    <span>Foodies</span>
+                </div>
+                <div class="burger">
+                    <a class="menu__btn" href="#">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <img src="img/Group.svg" alt="">
+                    <span>Dashboard</span>
+                </li>
+                <li>
+                    <img src="img/notes 1.svg" alt="">
+                    <span>Orders</span>
+                </li>
+                <li>
+                    <img src="img/draft-line 1.svg" alt="">
+                    <span>Menu</span>
+                </li>
+                <li>
+                    <img src="img/users 1.svg" alt="">
+                    <span>Customer</span>
+                </li>
+                <li>
+                    <img src="img/Card.svg" alt="">
+                    <span>Payment</span>
+                </li>
+                <li>
+                    <img src="img/line-chart-fill 1.svg" alt="">
+                    <span>Analytics</span>
+                </li>
+                <li>
+                    <img src="img/settings 1.svg" alt="">
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <img src="img/log-in 1.svg" alt="">
+                    <span>Logout</span>
+                </li>
+            </ul>
+            <div class="side__card__back">
+                <div class="side__bar__card">
+                    <p>Organize your menus throgh bellow button</p>
+                    <div class="btn__add">
+                        <img src="img/Plus.svg" alt="">
+                        <span>Add Menus</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main__block">
+            <div class="header">
+                <div class="search__bar">
+                    <input type="text" placeholder="Search here">
+                </div>
+                <div class="elements">
+                    <div class="back__icon">
+                        <span>25</span>
+                        <img src="img/shopping-bag 1.svg" alt="">
+                    </div>
+                    <div class="back__icon">
+                        <span>25</span>
+                        <img src="img/Chat 24px.svg" alt="">
+                    </div>
+                    <div class="back__icon">
+                        <span>25</span>
+                        <img src="img/bell 1.svg" alt="">
+                    </div>
+                </div>
+                <div class="hello">
+                    <p>Hello! Alex Grifline</p>
+                    <img src="img/person 1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+<script>
+    const menu = document.querySelector('.menu__btn')
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('active')
+    })
+</script>
+
+
+</html>
